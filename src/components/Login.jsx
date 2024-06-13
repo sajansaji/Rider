@@ -38,7 +38,7 @@ const Login = () => {
           </div>
           <div className=' my-2 '>
             <label htmlFor=""><b>Password</b></label> <br /> <Lock />
-            <input type="password" name="pass" id="pass" placeholder='       Enter password' className='bg-[#f3f4f6]  w-[276px] rounded-md  py-3 ' />
+            <input type="password" name="pass" id="pass" placeholder='      Enter password' className='bg-[#f3f4f6]  w-[276px] rounded-md  py-3 ' />
             <section className='flex mt-2'><p className='text-[#00BDD6FF] justify-between '>Forgot Password?  </p>
             <input type="checkbox" name="rem" id="rem" value="rem"  />  Remember me</section>
 
