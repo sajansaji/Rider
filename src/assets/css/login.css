@@ -1,0 +1,43 @@
+/* Button 2 */
+.button {
+    position: absolute; 
+    top: 281px; 
+    left: 780px; 
+    width: 360px; 
+    height: 52px; 
+    padding: 0 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Inter; 
+    font-size: 18px; 
+    line-height: 28px; 
+    font-weight: 400; 
+    color: #4267B2FF; 
+    background: #FFFFFFFF; /* white */
+    opacity: 1; 
+    border-radius: 8px; /* border-xl */
+    border-width: 1px; 
+    border-color: #4267B2FF; 
+    border-style: solid; 
+    gap: 8px; 
+  }
+  .button .icon {
+    width: 24px; 
+    height: 24px; 
+    fill: #4267B2FF; 
+  }
+  /* Hover */
+  .button:hover {
+    color: #4267B2FF; 
+    background: #FFFFFFFF; /* white */
+  }
+  /* Pressed */
+  .button:hover:active {
+    color: #4267B2FF; 
+    background: #FFFFFFFF; /* white */
+  }
+  /* Disabled */
+  .button:disabled {
+    opacity: 0.4; 
+  }
