@@ -43,7 +43,8 @@ const Login = () => {
             <input type="checkbox" name="rem" id="rem" value="rem"  />  Remember me</section>
 
           </div>
-          <section className='justify-center text-center bg-[#00BDD6FF] rounded-md py-3 mt-4 text-white mb-3 inter' >Continue</section>
+          <section className='justify-center text-center bg-[#00BDD6FF] rounded-md py-3 mt-4 text-white mb-3 inter' >
+            <input type="submit" value="Continue" /> </section>
         </div>
 
 
