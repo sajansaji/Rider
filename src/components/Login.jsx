@@ -6,7 +6,7 @@ import { Mail, Lock} from 'lucide-react';
 const Login = () => {
   return (
     <>
-      <section className='border-2 border-[#00BDD6FF] p-5 rounded-md mx-8 mt-32 shadow-sm shadow-black bg-[#EBFDFFFF] '>
+      <section className='border-2 border-[#00BDD6FF] p-5 rounded-md mx-8 mt-32 shadow-sm shadow-black bg-[#EBFDFFFF] lg:mx-96 '>
 
         {/* google and Facebook */}
         <a href="" >
@@ -34,11 +34,11 @@ const Login = () => {
           <div className=' my-2'>
           
             <label htmlFor=""><b>Email</b></label><br /> <Mail /> 
-            <input type="text" name="name" id="name" placeholder='      Enter email' className='bg-[#f3f4f6] py-3 w-[276px] rounded-md ' />
+            <input type="text" name="name" id="name" placeholder='      Enter email' className='bg-[#f3f4f6] py-3 w-[276px] lg:w-[350px] rounded-md ' />
           </div>
           <div className=' my-2 '>
             <label htmlFor=""><b>Password</b></label> <br /> <Lock />
-            <input type="password" name="pass" id="pass" placeholder='      Enter password' className='bg-[#f3f4f6]  w-[276px] rounded-md  py-3 ' />
+            <input type="password" name="pass" id="pass" placeholder='      Enter password' className='bg-[#f3f4f6]  w-[276px] lg:w-[350px] rounded-md  py-3 ' />
             <section className='flex mt-2'><p className='text-[#00BDD6FF] justify-between '>Forgot Password?  </p>
             <input type="checkbox" name="rem" id="rem" value="rem"  />  Remember me</section>
 
