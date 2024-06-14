@@ -11,7 +11,7 @@ const Header = () => {
           <li className='hover:text-blue-600'>Explore</li>
           <li className='hover:text-blue-600'>Plan</li>
         </ol>
-        <a href="/auth" className=' bg-[#f6f6f7] hover:bg-[#c8c8c9] shadow-md border-1 border-[#000] rounded-md p-1'><LogIn/></a> 
+        <a href="/auth" className=' bg-[#f6f6f7] hover:bg-[#c8c8c9] shadow-md border-1  rounded-md p-1'><LogIn/></a> 
     </div>
     <div></div>
     </>

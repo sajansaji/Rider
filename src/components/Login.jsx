@@ -10,13 +10,13 @@ const Login = () => {
 
         {/* google and Facebook */}
         <a href="" >
-          <section className=' p-2 py-3 mx-3 inter rounded-md border-2 border-[#DB4437FF] text-[#DB4437FF] my-4 text-center gap-2 flex items-center justify-center' >
+          <section className=' p-2 py-3 mx-3 inter rounded-md border-2 border-[#DB4437FF] text-[#DB4437FF] my-4 text-center gap-2 flex items-center justify-center hover:text-[#8a3434] hover:border-[#8a3434] ' >
             <Goog />
             Continue with Google
           </section>
         </a>
         <a href="">
-          <section className=' p-2 py-3 mx-3 inter rounded-md border-2 text-center border-[#4267B2FF] text-[#4267B2FF] my-4 gap-2 flex items-center justify-center'>
+          <section className=' p-2 py-3 mx-3 inter rounded-md border-2 text-center border-[#4267B2FF] text-[#4267B2FF] my-4 gap-2 flex items-center justify-center hover:border-[#1b4394] hover:text-[#1b4394]'>
             <Face /> Continue with Facebook
           </section>
         </a>
@@ -49,6 +49,7 @@ const Login = () => {
 
 
       </section>
+      <div></div>
 
     </>
   )
