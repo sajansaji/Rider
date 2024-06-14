@@ -13,6 +13,7 @@ const Header = () => {
         </ol>
         <a href="/auth" className=' bg-[#f6f6f7] hover:bg-[#c8c8c9] shadow-md border-1 border-[#000] rounded-md p-1'><LogIn/></a> 
     </div>
+    <div></div>
     </>
   )
 }
