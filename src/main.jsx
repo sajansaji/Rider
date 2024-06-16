@@ -8,6 +8,7 @@ import Login from './components/Login.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
+    
     <BrowserRouter>
       <Routes>
         <Route path='/auth' element={<Login />} />
