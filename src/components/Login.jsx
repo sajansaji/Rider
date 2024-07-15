@@ -3,6 +3,8 @@ import React from 'react'
 import Goog from '../assets/ico/Goog'
 import Face from '../assets/ico/Face'
 import { Mail, Lock} from 'lucide-react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Login = () => {
   return (
@@ -29,17 +31,16 @@ const Login = () => {
         <div className='inter'>
           Email Phone number
         </div>
-       
-
+   
         <div className='mx-4 inter'>
           <div className=' my-2'>
           
             <label htmlFor=""><b>Email</b></label><br /> <Mail /> 
-            <input type="text" name="name" id="name" placeholder='  Enter your email' className='bg-[#f3f4f6] py-3 w-[276px] lg:w-[350px] rounded-md ' />
+            <input type="text" name="name" id="name" placeholder=' &#xf0e0; Enter your email' className='bg-[#f3f4f6] py-3 w-[276px] lg:w-[350px] rounded-md ' />
           </div>
           <div className=' my-2 '>
             <label htmlFor=""><b>Password</b></label> <br /> <Lock />
-            <input type="password" name="pass" id="pass" placeholder='     Enter password' className='bg-[#f3f4f6]  w-[276px] lg:w-[350px] rounded-md  py-3 ' />
+            <input type="password" name="pass" id="pass" placeholder='  &#xf023; Enter password' className='bg-[#f3f4f6]  w-[276px] lg:w-[350px] rounded-md  py-3 ' />
             <section className='flex mt-2'><p className='text-[#00BDD6FF] justify-between '>Forgot Password?  </p>
             <input type="checkbox" name="rem" id="rem" value="rem"  />  Remember me</section>
 
@@ -47,7 +48,7 @@ const Login = () => {
           <section className='justify-center text-center bg-[#00BDD6FF] rounded-md py-3 mt-4 text-white mb-3 inter' >
             <input type="submit" value="Continue" /> </section>
         </div>
-
+        {/* <FontAwesomeIcon icon="fa-regular fa-envelope" /> */}
 
       </section>
       <div></div>
