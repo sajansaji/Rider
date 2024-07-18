@@ -13,7 +13,7 @@ const App = () => {
         <input type='text' placeholder='Destination' className=' px-5 rounded-full bg-slate-900 border-2 border-[#ff1818] placeholder-slate-400'></input>
         <button className=' py-2 px-7 rounded-full focus:ring focus:ring-red-400 hover:bg-gradient-to-r from-pink-400 text-slate-400 hover:text-white to-pink-500 bg-slate-900 border-[#ff1818] border-2'>Search</button>
       </div>
-      <div className='text-white flex pl-32 mt-32  text-5xl'>Create a new story from here</div>
+      <div className='text-white flex pl-32 mt-32 fredoka text-5xl'>Create a new story from here</div>
       
     </>
   );
