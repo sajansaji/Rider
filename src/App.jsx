@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import './assets/css/app.css';
 
-
+const word=['story','experience','life'];
 const App = () => {
 
   return (
@@ -13,7 +13,7 @@ const App = () => {
         <input type='text' placeholder='Destination' className='shadow-md px-5 rounded-full bg-slate-900 border-2 border-[#ff1818] placeholder-slate-400'></input>
         <button className='shadow-md py-2 px-7 rounded-full focus:ring focus:ring-red-400 hover:bg-gradient-to-r from-pink-400 text-slate-400 hover:text-white to-pink-500 bg-slate-900 border-[#ff1818] border-2 fredoka'>Search</button>
       </div>
-      <div className='text-white flex pl-32 mt-32 fredoka text-5xl'>Create a new story from here</div>
+      <div className='text-white flex pl-32 mt-32 fredoka text-5xl'>Create a new <WordRotate word={word}/> from here</div>
       
     </>
   );
